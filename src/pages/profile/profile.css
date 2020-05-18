@@ -1,29 +1,29 @@
-.main {
+.profile {
   grid-column: 2 / -1;
   display: grid;
   gap: 10px;
   min-height: 20rem;
 }
 
-.main__banner {
+.profile__banner {
   background-color: rgb(213, 224, 64);
   min-height: 100px;
 }
 
-.main__top {
+.profile__top {
   display: grid;
   grid-template-columns: 100px auto;
   gap: 10px;
   outline: 2px solid blue;
 }
 
-.main__avatar {
+.profile__avatar {
   width: 100px;
   height: 100px;
   background-color: steelblue;
 }
 
-.main__bottom {
+.profile__bottom {
   display: grid;
   gap: 10px;
   outline: 2px solid blue;

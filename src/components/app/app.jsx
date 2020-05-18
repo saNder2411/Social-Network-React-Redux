@@ -1,18 +1,19 @@
 import React from 'react';
 import './app.css';
-import TopHeader from '../top-header/top-header';
-import MainNav from '../main-nav/main-nav';
+import Header from '../header/header';
+import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
-import Main from '../main/main';
+import Profile from '../../pages/profile/profile';
+
 
 
 
 const App = () => {
   return (
     <div className="app">
-      <TopHeader />
-      <MainNav />
-      <Main />
+      <Header />
+      <Navbar />
+      <Profile />
       <Footer />
     </div>
   );

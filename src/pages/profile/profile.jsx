@@ -1,19 +1,19 @@
 import React from 'react';
-import './main.css';
+import './profile.css';
 
-const Main = () => {
+const Profile = () => {
 
   return (
-    <main className="main">
-      <div className="main__banner">
+    <main className="profile">
+      <div className="profile__banner">
         Banner
       </div>
-      <div className="main__top">
-        <div className="main__avatar">
+      <div className="profile__top">
+        <div className="profile__avatar">
           <img src="" alt=""/>
           Avatar
         </div>
-        <div className="main__data">
+        <div className="profile__data">
           <h4>Username</h4>
           <p>Date of Birthday: Date of Birthday</p>
           <p>City: City</p>
@@ -21,12 +21,12 @@ const Main = () => {
           <p>Web Site: web site</p>
         </div>
       </div>
-      <div className="main__bottom">
+      <div className="profile__bottom">
         User Posts
-        <div className="main__new-post">
+        <div className="profile__new-post">
           New Post
         </div>
-        <div className="main__posts">
+        <div className="profile__posts">
           <ul>
             <li>Post 1</li>
             <li>Post 2</li>
@@ -37,4 +37,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Profile;
