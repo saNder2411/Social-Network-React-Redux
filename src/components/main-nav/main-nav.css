@@ -1,0 +1,8 @@
+.main-nav .main-nav__list {
+  padding: 10px 20px;
+}
+
+.main-nav {
+  grid-column: 1 / 2;
+  background-color: teal;
+}
