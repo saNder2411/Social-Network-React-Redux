@@ -1,5 +1,5 @@
 import React from 'react';
-import {NewsBody} from '../../components/styled/styled';
+import {NewsBody} from './news-styled';
 
 
 const News = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import {AppBody} from './styled';
+import {AppBody} from './app-styled';
 import Header from '../header/header';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';

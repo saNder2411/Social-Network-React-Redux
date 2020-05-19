@@ -1,6 +1,6 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import {NavbarBody, NavbarList} from '../styled/styled';
+import {NavbarBody, NavbarList} from './navbar-styled';
+import {StyledNavLink} from '../reusable-styled-components/reusable-styled-components';
 
 const Navbar = () => {
 
@@ -8,19 +8,19 @@ const Navbar = () => {
     <NavbarBody>
       <NavbarList>
         <li >
-          <NavLink to="/">Profile</NavLink>
+          <StyledNavLink to="/" exact>Profile</StyledNavLink>
         </li>
         <li>
-          <NavLink to="/dialogs/">Messages</NavLink>
+          <StyledNavLink to="/dialogs/">Messages</StyledNavLink>
         </li>
         <li>
-          <NavLink to="/news/">News</NavLink>
+          <StyledNavLink to="/news/">News</StyledNavLink>
         </li>
         <li>
-        <NavLink to="/music/">Music</NavLink>
+          <StyledNavLink to="/music/">Music</StyledNavLink>
         </li>
         <li>
-          <NavLink to="/settings/">Settings</NavLink>
+          <StyledNavLink to="/settings/">Settings</StyledNavLink>
         </li>
       </NavbarList>
     </NavbarBody>

@@ -1,5 +1,6 @@
 import React from 'react';
-import {HeaderBody, ImgLogo} from '../styled/styled';
+import {HeaderBody} from './header-styled';
+import {ImgLogo} from '../reusable-styled-components/reusable-styled-components';
 
 
 const Header = () => {

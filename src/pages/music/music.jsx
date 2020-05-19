@@ -1,5 +1,5 @@
 import React from 'react';
-import {MusicBody} from '../../components/styled/styled';
+import {MusicBody} from './music-styled';
 
 
 const Music = () => {

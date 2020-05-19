@@ -1,5 +1,5 @@
 import React from 'react';
-import {UserPostsBody} from '../styled/styled';
+import {UserPostsBody} from './uer-posts-styled';
 import UserPost from '../user-post/user-post';
 
 

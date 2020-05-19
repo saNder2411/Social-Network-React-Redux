@@ -1,5 +1,5 @@
 import React from 'react';
-import {SettingsBody} from '../../components/styled/styled';
+import {SettingsBody} from './settings-styled';
 
 
 const Settings = () => {
