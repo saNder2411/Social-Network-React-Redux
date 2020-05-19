@@ -1,8 +1,0 @@
-.navbar {
-  grid-column: 1 / 2;
-  background-color: teal;
-}
-
-.navbar .navbar__list {
-  padding: 10px 20px;
-}

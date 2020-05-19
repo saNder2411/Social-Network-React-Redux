@@ -1,30 +1,29 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './navbar.css';
-
+import {NavbarBody, NavbarList} from '../styled/styled';
 
 const Navbar = () => {
 
   return (
-    <nav className="navbar">
-      <ul className="navbar__list">
-        <li className="navbar__item">
-          <Link className="navbar__link" to="/">Profile</Link>
+    <NavbarBody>
+      <NavbarList>
+        <li >
+          <Link to="/">Profile</Link>
         </li>
-        <li className="navbar__item">
-          <Link className="navbar__link" to="/">Messages</Link>
+        <li>
+          <Link to="/">Messages</Link>
         </li>
-        <li className="navbar__item">
+        <li>
           <Link to="/">News</Link>
         </li>
-        <li className="navbar__item">
-        <Link className="navbar__link" to="/">Music</Link>
+        <li>
+        <Link to="/">Music</Link>
         </li>
-        <li className="navbar__item">
-          <Link className="navbar__link" to="/">Settings</Link>
+        <li>
+          <Link to="/">Settings</Link>
         </li>
-      </ul>
-    </nav>
+      </NavbarList>
+    </NavbarBody>
   );
 };
 

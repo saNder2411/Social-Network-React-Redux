@@ -1,39 +1,43 @@
 import React from 'react';
-import './profile.css';
+import {ProfileBody, ProfileBanner, UserCardBody, UserCardImgContainer, UserPostsBody} from '../../components/styled/styled';
 
 const Profile = () => {
 
   return (
-    <main className="profile">
-      <div className="profile__banner">
+    <ProfileBody>
+      <ProfileBanner>
         Banner
-      </div>
-      <div className="profile__top">
-        <div className="profile__avatar">
+      </ProfileBanner>
+      <UserCardBody>
+        <UserCardImgContainer>
           <img src="" alt=""/>
           Avatar
-        </div>
-        <div className="profile__data">
+        </UserCardImgContainer>
+        <div>
           <h4>Username</h4>
           <p>Date of Birthday: Date of Birthday</p>
           <p>City: City</p>
           <p>Education: Education</p>
           <p>Web Site: web site</p>
         </div>
-      </div>
-      <div className="profile__bottom">
+      </UserCardBody>
+      <UserPostsBody>
         User Posts
-        <div className="profile__new-post">
+        <div>
           New Post
         </div>
-        <div className="profile__posts">
-          <ul>
-            <li>Post 1</li>
-            <li>Post 2</li>
-          </ul>
-        </div>
-      </div>
-    </main>
+        <ul>
+          <li>Post 1</li>
+          <li>Post 2</li>
+          <li>Post 3</li>
+          <li>Post 4</li>
+          <li>Post 5</li>
+          <li>Post 6</li>
+          <li>Post 7</li>
+          <li>Post 8</li>
+        </ul>
+      </UserPostsBody>
+    </ProfileBody>
   );
 };
 

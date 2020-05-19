@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import {AppBody} from './styled';
 import Header from '../header/header';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
@@ -10,12 +10,12 @@ import Profile from '../../pages/profile/profile';
 
 const App = () => {
   return (
-    <div className="app">
+    <AppBody>
       <Header />
       <Navbar />
       <Profile />
       <Footer />
-    </div>
+    </AppBody>
   );
 }
 
