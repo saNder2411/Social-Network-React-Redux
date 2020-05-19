@@ -3,7 +3,7 @@ import {AppBody} from './styled';
 import Header from '../header/header';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
-import Profile from '../../pages/profile/profile';
+import Routes from '../../routes/routes';
 
 
 
@@ -13,7 +13,7 @@ const App = () => {
     <AppBody>
       <Header />
       <Navbar />
-      <Profile />
+      <Routes />
       <Footer />
     </AppBody>
   );

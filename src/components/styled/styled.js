@@ -30,10 +30,13 @@ export const NavbarList = styled.ul`&& {
   padding: 10px 20px;
 }`;
 
-export const ProfileBody = styled.main`
-  grid-column: 2 / -1;
-  display: grid;
-  gap: 10px;
+const PageBody = styled.main`
+grid-column: 2 / -1;
+display: grid;
+gap: 10px;
+`;
+
+export const ProfileBody = styled(PageBody)`
   min-height: 20rem;
 `;
 
@@ -59,4 +62,24 @@ export const UserPostsBody = styled.div`
   display: grid;
   gap: 10px;
   outline: 2px solid blue;
+`;
+
+export const DialogsBody = styled(PageBody)`
+  min-height: 25rem;
+  background-color: tomato;
+`;
+
+export const NewsBody = styled(PageBody)`
+  min-height: 25rem;
+  background-color: bisque;
+`;
+
+export const MusicBody = styled(PageBody)`
+  min-height: 25rem;
+  background-color: bisque;
+`;
+
+export const SettingsBody = styled(PageBody)`
+  min-height: 25rem;
+  background-color: palegoldenrod;
 `;
