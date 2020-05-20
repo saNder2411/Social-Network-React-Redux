@@ -1,29 +1,29 @@
 import React from 'react';
-import {NavbarBody, NavbarList} from './navbar-styled';
-import {StyledNavLink} from '../reusable-styled-components/reusable-styled-components';
+import {StyledNav, StyledUl, StyledLi, StyledLink} from './navbar-styled';
+
 
 const Navbar = () => {
 
   return (
-    <NavbarBody>
-      <NavbarList>
-        <li >
-          <StyledNavLink to="/" exact>Profile</StyledNavLink>
-        </li>
-        <li>
-          <StyledNavLink to="/dialogs/">Messages</StyledNavLink>
-        </li>
-        <li>
-          <StyledNavLink to="/news/">News</StyledNavLink>
-        </li>
-        <li>
-          <StyledNavLink to="/music/">Music</StyledNavLink>
-        </li>
-        <li>
-          <StyledNavLink to="/settings/">Settings</StyledNavLink>
-        </li>
-      </NavbarList>
-    </NavbarBody>
+    <StyledNav>
+      <StyledUl>
+        <StyledLi >
+          <StyledLink to="/" exact>Profile</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLink to="/dialogs/">Messages</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLink to="/news/">News</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLink to="/music/">Music</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLink to="/settings/">Settings</StyledLink>
+        </StyledLi>
+      </StyledUl>
+    </StyledNav>
   );
 };
 

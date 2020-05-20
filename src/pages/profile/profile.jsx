@@ -1,18 +1,20 @@
 import React from 'react';
-import {ProfileBody, ProfileBanner} from './profile-styled';
+import {StyledProfileBody, StyledProfileBanner} from './profile-styled';
 import UserCard from '../../components/user-card/user-card';
 import UserPosts from '../../components/user-posts/user-posts';
 
 const Profile = () => {
 
+  // fetch(` https://social-network.samuraijs.com/api/1.0/users`)
+  //   .then((res) => console.log(res))
+  //   .catch((err) => console.log(err));
+
   return (
-    <ProfileBody>
-      <ProfileBanner>
-        Banner
-      </ProfileBanner>
+    <StyledProfileBody>
+      <StyledProfileBanner />
       <UserCard />
       <UserPosts />
-    </ProfileBody>
+    </StyledProfileBody>
   );
 };
 

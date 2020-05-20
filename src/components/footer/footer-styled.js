@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
-export const FooterBody = styled.footer`
-  padding: 10px 20px;
-  min-height: 60px;
+export const StyledFooterBody = styled.footer`
   grid-column: 1 / -1;
-  color: whitesmoke;
-  text-align: center;
-  background-color: teal;
+  padding: 15px 0 15px 0;
+  border-top: 1px solid #262626;
 `;

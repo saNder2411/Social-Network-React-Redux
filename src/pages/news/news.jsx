@@ -1,13 +1,13 @@
 import React from 'react';
-import {NewsBody} from './news-styled';
+import {StyledNewsBody} from './news-styled';
 
 
 const News = () => {
 
   return (
-    <NewsBody>
-      NewsBody
-    </NewsBody>
+    <StyledNewsBody>
+      StyledNewsBody
+    </StyledNewsBody>
   );
 };
 

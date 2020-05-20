@@ -1,13 +1,13 @@
 import React from 'react';
-import {MusicBody} from './music-styled';
+import {StyledMusicBody} from './music-styled';
 
 
 const Music = () => {
 
   return (
-    <MusicBody>
-      MusicBody
-    </MusicBody>
+    <StyledMusicBody>
+      StyledMusicBody
+    </StyledMusicBody>
   );
 };
 

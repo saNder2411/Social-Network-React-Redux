@@ -1,13 +1,13 @@
 import React from 'react';
-import {SettingsBody} from './settings-styled';
+import {StyledSettingsBody} from './settings-styled';
 
 
 const Settings = () => {
 
   return (
-    <SettingsBody>
-      SettingsBody
-    </SettingsBody>
+    <StyledSettingsBody>
+      StyledSettingsBody
+    </StyledSettingsBody>
   );
 };
 

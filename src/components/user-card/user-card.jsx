@@ -1,22 +1,21 @@
 import React from 'react';
-import {UserCardBody, UserCardImgContainer} from './user-card-styled';
+import {StyledUserCardBody, StyledUserCardImgContainer, StyledUserCardImg, StyledUserCardBio} from './user-card-styled';
 
 const UserCard = () => {
 
   return (
-    <UserCardBody>
-      <UserCardImgContainer>
-        <img src="" alt=""/>
-        Avatar
-      </UserCardImgContainer>
+    <StyledUserCardBody>
+      <StyledUserCardImgContainer>
+        <StyledUserCardImg src="https://cdn1.flamp.ru/cbdfd4792aaddd457030e8f03b7b7b63.png" alt="avatar"/>
+      </StyledUserCardImgContainer>
       <div>
         <h4>Username</h4>
-        <p>Date of Birthday: Date of Birthday</p>
-        <p>City: City</p>
-        <p>Education: Education</p>
-        <p>Web Site: web site</p>
+        <StyledUserCardBio>Date of Birthday: Date of Birthday</StyledUserCardBio>
+        <StyledUserCardBio>City: City</StyledUserCardBio>
+        <StyledUserCardBio>Education: Education</StyledUserCardBio>
+        <StyledUserCardBio>Web Site: web site</StyledUserCardBio>
       </div>
-    </UserCardBody>
+    </StyledUserCardBody>
   );
 };
 

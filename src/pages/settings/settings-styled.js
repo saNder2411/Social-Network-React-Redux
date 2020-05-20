@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import {PageBody} from '../../components/reusable-styled-components/reusable-styled-components';
+import {StyledMain} from '../../components/reusable-styled-components/reusable-styled-components';
 
 
-export const SettingsBody = styled(PageBody)`
+export const StyledSettingsBody = styled(StyledMain)`
   min-height: 25rem;
   background-color: palegoldenrod;
 `;
