@@ -9,7 +9,7 @@ export const StyledImgLogo = styled.img`
 export const StyledMain = styled.main`
 grid-column: 2 / -1;
 display: grid;
-gap: 10px;
+gap: 20px;
 `;
 
 export const StyledNavLink = styled(NavLink)`

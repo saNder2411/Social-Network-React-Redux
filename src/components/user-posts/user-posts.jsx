@@ -3,19 +3,19 @@ import {StyledUserPostsBody, StyledTextareaContainer} from './uer-posts-styled';
 import UserPost from '../user-post/user-post';
 
 
-const UserPosts = () => {
+const UserPosts = ({posts}) => {
 
   return (
     <StyledUserPostsBody>
       <h3>New Post</h3>
       <StyledTextareaContainer>
-        <textarea rows="8" placeholder="My new post ..."/>
-        <button>Add post</button>
+        <textarea rows="8" placeholder="My new post ..." />
+        <button type="button">Add post</button>
       </StyledTextareaContainer>
       <ul>
-        <UserPost post={`My post`} likeCount={23}/>
-        <UserPost post={`Mu post`} likeCount={3}/>
-        <UserPost post={`My post`} likeCount={2}/>
+        {posts.map(({id, text, likesCount}) => (
+          <UserPost key={id} text={text} likesCount={likesCount} />
+        ))}
       </ul>
     </StyledUserPostsBody>
   );

@@ -8,12 +8,13 @@ import Music from '../pages/music/music';
 import Settings from '../pages/settings/settings';
 
 
-const Routes = () => {
+const Routes = ({state}) => {
+  const {profilePage: {posts}, dialogsPage} = state;
 
   return (
     <Switch>
-      <Route path="/" exact component={Profile} />
-      <Route path="/dialogs/" component={Dialogs} />
+      <Route path="/" exact render={() => <Profile posts={posts} />} />
+      <Route path="/dialogs/" render={() => <Dialogs {...dialogsPage} />} />
       <Route path="/news/" component={News} />
       <Route path="/music/" component={Music} />
       <Route path="/settings/" component={Settings} />

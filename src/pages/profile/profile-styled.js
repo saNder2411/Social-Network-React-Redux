@@ -9,4 +9,3 @@ export const StyledProfileBody = styled(StyledMain)`
 export const StyledProfileBanner = styled.div`
   min-height: 100px;
 `;
-

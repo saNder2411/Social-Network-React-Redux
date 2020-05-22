@@ -6,17 +6,16 @@ import Footer from '../footer/footer';
 import Routes from '../../routes/routes';
 
 
+const App = ({state}) => {
 
-
-const App = () => {
   return (
     <AppBody>
       <Header />
       <Navbar />
-      <Routes />
+      <Routes state={state} />
       <Footer />
     </AppBody>
   );
-}
+};
 
 export default App;

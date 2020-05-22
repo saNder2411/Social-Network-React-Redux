@@ -4,12 +4,12 @@ import DialogList from '../../components/dialog-list/dialog-list';
 import MessageList from '../../components/message-list/message-list';
 
 
-const Dialogs = () => {
+const Dialogs = ({dialogs, messages}) => {
 
   return (
     <StyledDialogsBody>
-        <DialogList />
-        <MessageList />
+      <DialogList dialogs={dialogs} />
+      <MessageList messages={messages} />
     </StyledDialogsBody>
   );
 };

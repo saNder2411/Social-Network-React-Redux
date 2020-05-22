@@ -6,4 +6,3 @@ export const StyledMusicBody = styled(StyledMain)`
   min-height: 25rem;
   background-color: bisque;
 `;
-

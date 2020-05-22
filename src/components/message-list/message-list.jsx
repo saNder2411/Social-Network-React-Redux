@@ -1,16 +1,15 @@
 import React from 'react';
-import {StyledMessageList} from './message-list-styled'
+import {StyledMessageList} from './message-list-styled';
 import MessageItem from '../message-item/message-item';
 
 
-const MessageList = () => {
+const MessageList = ({messages}) => {
 
   return (
     <StyledMessageList>
-      <MessageItem message={`Message`} />
-      <MessageItem message={`Message`} />
-      <MessageItem message={`Message`} />
-      <MessageItem message={`Message`} />
+      {messages.map(({id, message}) => (
+        <MessageItem id={id} message={message} key={id} />
+      ))}
     </StyledMessageList>
   );
 };

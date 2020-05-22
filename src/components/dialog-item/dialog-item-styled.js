@@ -6,5 +6,9 @@ export const StyledDialogList = styled.ul`
 `;
 
 export const StyledDialogNavLink = styled(StyledNavLink)`
-  color: blueviolet;
+  display: block;
+  padding: 5px 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #262626;
 `;

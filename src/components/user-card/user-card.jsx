@@ -6,7 +6,7 @@ const UserCard = () => {
   return (
     <StyledUserCardBody>
       <StyledUserCardImgContainer>
-        <StyledUserCardImg src="https://cdn1.flamp.ru/cbdfd4792aaddd457030e8f03b7b7b63.png" alt="avatar"/>
+        <StyledUserCardImg src="https://cdn1.flamp.ru/cbdfd4792aaddd457030e8f03b7b7b63.png" alt="avatar" />
       </StyledUserCardImgContainer>
       <div>
         <h4>Username</h4>
